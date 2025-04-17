@@ -93,7 +93,7 @@ export default function Home() {
 
       <div className="mt-2 flex items-center justify-between">
         <h1 className="font-bold text-xl">Ferry operators</h1>
-        <button className="bg-primary p-2 px-6 text-sm text-white rounded-lg border border-white active:border-yellow border-2  ">
+        <button className="bg-primary hidden md:block p-2 px-6 text-sm text-white rounded-lg border border-white active:border-yellow border-2  ">
           &gt; &nbsp; Book your tickets
         </button>
       </div>
