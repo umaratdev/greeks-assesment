@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #00afd4;
+  --color-yellow: #ffdc01;
+  --color-light: #fdfdfd;
+  --color-light-2: rgb(253, 253, 253);
+  --color-light-3: rgb(248, 248, 248);
+  --color-gray:rgb(219, 219, 219);
+  --color-dark-2:rgb(96,96,96);
+}
+
+
+:root {
+  font-family: "Poppins", system-ui;
+  font-size: 17px;
+  font-weight: 300;
+  color: var(--color-dark-2);
+}
+
+.logo-icon {
+  clip-path: polygon(0 0, 100% 0, 50% 100%, 0% 100%);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--color-gray);
+  
+}
+
+button{
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.95);
+  transition: all 200ms;
+}
+
+
+
